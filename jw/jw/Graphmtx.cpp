@@ -1,4 +1,5 @@
 #include "Graphmtx.h"	
+#include<iostream>
 char Graphmtx::getValue(int i) {
 	return (i >= 0 && i <= numVertices) ? VerticesList[i] : NULL;
 }
@@ -117,4 +118,3 @@ int Graphmtx::getVertexPos(char vertex) {
 	}
 	return -1;
 }
-

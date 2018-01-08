@@ -37,6 +37,7 @@ void ShortestPath(Graph& G, int v, int dist[], int path[])
 	int n = G.NumberOfVertices();
 	bool *S = new bool[n];
 	int i, j, k;
+
 	int w, min;
 	for (i = 0; i<n; i++)
 	{

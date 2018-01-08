@@ -4,6 +4,7 @@
 #include "Graph.h"
 #include "Graphmtx.h"
 #include"print.h"
+#include
 using namespace std;
 const int MaxVertices = 100;	//图中的最大顶点数目
 const int MaxWeight = 10000;	//无穷大的权值
